@@ -1,0 +1,21 @@
+# User-local credentials and editor state
+**/config.local.h
+**/secrets.h
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/
+# Build products, logs and generated synthetic test output
+build/
+build-*/
+.pio/
+*.bin
+*.elf
+*.map
+*.log
+**/__pycache__/
+proair_mqtt_controls/extras/tests/test_core
+proair_mqtt_controls/extras/tests/fixture_data.h
+proair_mqtt_controls/extras/tests/discovery.jsonl
